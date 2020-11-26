@@ -2,13 +2,13 @@ package main
 
 import (
 	"context"
-	"Kafka_Program/proto"
+	"github.com/ritwiksamrat/finalkafkagrpc/proto"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"
 	"net"
 	"fmt"
 	"time"
-	"github.com/segmentio/kafka-go"
+	"gopkg.in/confluentinc/confluent-kafka-go.v1/kafka"
 )
 type server struct{}
 
